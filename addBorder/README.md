@@ -10,10 +10,10 @@ For
            "ded"]
 the output should be
 
-    addBorder(picture) = ["*****",
-                      "*abc*",
-                      "*ded*",
-                      "*****"]
+    addBorder(picture) =["*****",
+                        "*abc*",
+                        "*ded*",
+                        "*****"]
 
 **Hints**
 -   concat()
