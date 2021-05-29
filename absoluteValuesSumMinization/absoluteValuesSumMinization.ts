@@ -8,3 +8,11 @@ console.log(absoluteValuesSumMinimization([2, 4, 7]));
 console.log(absoluteValuesSumMinimization([2, 4, 7, 6]));
 console.log(absoluteValuesSumMinimization([2, 4, 7, 6, 6]));
 console.log(absoluteValuesSumMinimization([2, 4, 7, 6, 6, 8]));
+
+// Test
+// test('absolute Values Sum Minimization', () => {
+//   expect(absoluteValuesSumMinimization([2, 4, 7])).toEqual(4);
+//   expect(absoluteValuesSumMinimization([2, 4, 7, 6])).toEqual(4);
+//   expect(absoluteValuesSumMinimization([2, 4, 7, 6, 6])).toEqual(4);
+//   expect(absoluteValuesSumMinimization([2, 4, 7, 6, 6, 8])).toEqual(4);
+// });
