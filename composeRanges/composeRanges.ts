@@ -12,7 +12,7 @@ export function composeRanges(nums: number[]): string[] {
       ranges.push({ start: nums[i], end: nums[i] });
     }
   }
-
+  
   for (let i = 0; i < ranges.length; i++) {
     if (ranges[i].start !== ranges[i].end) {
       ranges[i] = `${ranges[i].start}->${ranges[i].end}`;
