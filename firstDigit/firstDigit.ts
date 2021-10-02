@@ -1,5 +1,5 @@
 export function firstDigit(inputString: string): string {
-
+    
 }
 
 // console.log(firstDigit('var_1__Int'));
