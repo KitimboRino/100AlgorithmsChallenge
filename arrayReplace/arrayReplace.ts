@@ -3,7 +3,7 @@ export function arrayReplace(
   elemToReplace: number,
   substitutionElem: number
 ): number[] {
-  
+
   inputArray.forEach((ele, index) => {
     if (ele === elemToReplace) {
       inputArray[index] = substitutionElem;
