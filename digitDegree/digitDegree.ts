@@ -9,6 +9,7 @@ export function digitDegree(n: number): number {
             count++;
             currentNumber = getDigit(currentNumber);
             if (currentNumber < 9) {
+                // The break statement terminates the current loop, switch , or label statement and transfers program control to the statement following the terminated statement
                 break;
             }
         }
@@ -18,6 +19,7 @@ export function digitDegree(n: number): number {
 function getDigit(num) {
     const nums = num.toString().split('').map((element) => parseInt(element));
 
+    // The reduce() method executes a reducer function for array element
     return nums.reduce((a, b) => { return a + b });
 }
 
