@@ -2,6 +2,8 @@ export function firstDuplicate(a: number[]): number {
     // Delacare a constant
     const firstDup = {};
 
+   /* Iterating through the array and checking if the object has the property. If it does, it returns
+   the number. If it doesn't, it adds the number to the object. */
     for (let num of a) {
         // Declare a constant
         if(firstDup.hasOwnProperty(num)){
