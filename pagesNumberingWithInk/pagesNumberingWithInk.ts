@@ -13,7 +13,11 @@ export function pagesNumberingWithInk(current: number, numberOfDigits: number): 
 
     // As long as we have enough digits left, remove the necessary number of digits and go to the next page.
     while (digitsLeft >= String(currentPage).length) {
+
+        /* Subtracting the length of the current page from the number of digits left. */
         digitsLeft -= String(currentPage).length;
+
+        /* Incrementing the current page by 1. */
         currentPage++
     }
     // Since there will be an extra page accounted for, decrement by 1 before returning each time.
