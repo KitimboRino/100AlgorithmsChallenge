@@ -1,6 +1,8 @@
 export function stringsConstruction(a: string, b: string): number {
+    /* Creating an object with the count of each letter in the string. */
     const aCount: object = getAlphabetCountts(a);
     const bCount: object = getAlphabetCountts(b);
+    
     const counts: number[] = [];
     for (let char in aCount) {
         if(bCount.hasOwnProperty(char)) {
