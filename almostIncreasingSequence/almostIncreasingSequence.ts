@@ -1,7 +1,8 @@
 export function almostIncreasingSequence(sequence: number[]): boolean {
   let count = 0;
 
-  // Iterating through array using for loop
+
+/* Checking if the sequence is a valid mountain sequence. */
   for (let i = 0; i < sequence.length; i++) {
     if (sequence[i] <= sequence[i - 1]) {
       count++;
