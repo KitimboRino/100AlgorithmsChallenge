@@ -3,6 +3,8 @@ export function tasksTypes(deadlines: number[], day: number): number[] {
     let upcoming: number = 0;
     let later: number = 0;
 
+    /* A for loop that iterates through the array and checks if the value is less than or equal to the
+    day, greater than the day plus 7, or in between. */
     for (let i: number = 0; i < deadlines.length; i++) {
         if (deadlines[i] <= day) {
             old += 1;
